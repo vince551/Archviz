@@ -1,39 +1,57 @@
 # ArchViz
 
-> A web-based architectural visualization playground for exploring buildings, spaces, materials, lighting, and 3D scenes.
+> A browser-based architectural visualization experience combining spatial design, interactive 3D, and modern frontend engineering.
 
-## Purpose
+## Vision
 
-ArchViz is where architecture and web technology meet. The project is designed to demonstrate interactive 3D visualization, architectural presentation, and modern frontend engineering.
+ArchViz explores how architecture can be presented as an interactive digital experience rather than a static image. Users will be able to inspect a building, move through spaces, explore materials, and understand the design decisions behind a project.
 
-## Planned Experience
+## Experience
 
 - 🏛️ Interactive architectural scenes
 - 🧱 Materials and finishes
 - 💡 Lighting controls
 - 📐 Architectural information panels
-- 🎥 Camera and walkthrough controls
+- 🎥 Orbit and walkthrough camera modes
 - 🌐 Web-based 3D presentation
 - 📱 Responsive presentation mode
 
-## Planned Stack
+## Stack
 
-- React / Next.js
-- TypeScript
-- Three.js / React Three Fiber
+- Next.js + TypeScript
+- React Three Fiber
+- Three.js
+- Drei
 - Tailwind CSS
 - Vercel
 
+## Architecture
+
+```text
+ArchViz
+├── Presentation UI
+├── 3D Viewport
+│   ├── Scene
+│   ├── Camera
+│   ├── Lighting
+│   └── Materials
+├── Project Information
+└── Responsive Controls
+```
+
 ## Roadmap
 
-- [ ] Create the base 3D scene
-- [ ] Add an architectural showcase building
-- [ ] Add camera controls
-- [ ] Add materials and lighting controls
-- [ ] Add floor/space information
-- [ ] Add presentation mode
-- [ ] Optimize mobile performance
-- [ ] Publish live demo
+- [x] Product foundation
+- [ ] Application shell
+- [ ] Base 3D scene
+- [ ] Architectural showcase building
+- [ ] Camera controls
+- [ ] Materials system
+- [ ] Lighting controls
+- [ ] Floor/space information
+- [ ] Presentation mode
+- [ ] Mobile performance optimization
+- [ ] Production deployment
 
 ## Status
 
